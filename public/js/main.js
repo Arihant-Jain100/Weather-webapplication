@@ -1,6 +1,6 @@
 // console.log("page is linked to weather page of weather app")
 // apiLink = api.openweathermap.org/data/2.5/weather?q={country}&appid={apikey}
-appid = `7fecd4c4248f4ea1a41d89065827a125`;
+appid = process.env.PORT;
 // user input city name
 const cityName = document.getElementById('cityName');
 const submitBtn = document.getElementById('submitBtn');
